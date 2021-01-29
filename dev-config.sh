@@ -11,10 +11,9 @@ storage "postgresql" {
 
 listener "tcp" {
  address = "127.0.0.1:${PORT:?}"
+ proxy_protocol_behavior = "use_always"
  tls_disable = 1
 }
-
-api_addr = "https://testvault.heroku.app"
 
 ui = true
 EOF
