@@ -11,7 +11,6 @@ storage "postgresql" {
 
 listener "tcp" {
  address = "127.0.0.1:${PORT:?}"
- tls_disable = 1
 }
 
 ui = true
