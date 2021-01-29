@@ -14,6 +14,7 @@ listener "tcp" {
  tls_disable = 1
 }
 
+ui = true
 EOF
 
 
