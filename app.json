@@ -5,7 +5,7 @@
   "keywords": ["vault", "server"],
   "buildpacks": [
     {
-      "url": "https://github.com/pallavkothari/heroku-buildpack-vault.git"
+      "url": "https://github.com/hi-artem/heroku-buildpack-vault.git"
     }
   ],
   "addons": [
